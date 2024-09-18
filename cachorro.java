@@ -10,11 +10,11 @@ public class cachorro {
     System.out.println("Cachorro virtual");
     System.out.println("Cadastre o seu cachorro");
 
-    System.out.print("NOME:")
-    nome = scanner.nextline();
+    System.out.print("NOME:");
+    nome = scanner.nextLine();
 
     System.out.print("RAÇA");
-    raca = scanner.nextline();
+    raca = scanner.nextLine();
 
     System.out.print("IDADE");
     idade = scanner.nextInt();
@@ -83,7 +83,7 @@ public static void buscarObjeto(String nome) {
 }
 public static void brincar(String nome) { 
    System.out.println(nome + " está brincando!!!");
-   
+
 }
  public static void dormir(String nome) {
    System.out.println(nome + " está descansando!!!");  
